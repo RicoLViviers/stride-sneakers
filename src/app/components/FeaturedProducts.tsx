@@ -2,7 +2,7 @@ import Product from "./Product";
 
 export default function FeaturedProducts () {
     return (
-        <div className="p-12 bg-neutral-900 border-t border-gray-800">
+        <div className="p-12 bg-neutral-900 border-t border-neutral-800">
             <h1 className="text-4xl mb-8 cursor-pointer">Featured Products</h1>
             <div className="flex flex-row gap-4">
                 <Product name="Stealth" description="The stealthiest sneakers" image="/images/products/stealth.jpeg"/>
